@@ -88,3 +88,4 @@ Comparing patterns across 2020 and 2021 helps evaluate recovery and refine forec
 
 
 6. Screenshots / Demos
+https://github.com/ushaaaa33/Adidas-Dashboard/blob/main/Screenshot%20of%20the%20Dashboard.png
