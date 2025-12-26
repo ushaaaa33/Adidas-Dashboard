@@ -4,43 +4,45 @@ This is a adidas sales analysis interactive dashboard using power bi.
 1. Project Title / Headline
    
 👟 Adidas Sales Pulse:
-US Performance Insights Dashboard
-An interactive Power BI dashboard that analyzes Adidas sales across the United States from 2020–2021, highlighting revenue, profitability, regional trends, product performance, and retailer contribution.
+   US Performance Insights Dashboard
+   An interactive Power BI dashboard that analyzes Adidas sales across the United States from 2020–2021, highlighting revenue,               profitability, regional trends, product performance, and retailer contribution.
 ​
 
 2. Short Description / Purpose
-This dashboard provides a consolidated view of Adidas’s US sales performance, enabling users to explore how total sales, operating profit, units sold, price per unit, and operating margin vary by month, region, state, product category, and retailer.
+
+
+   This dashboard provides a consolidated view of Adidas’s US sales performance, enabling users to explore how total sales, operating        profit, units sold, price per unit, and operating margin vary by month, region, state, product category, and retailer.
 
 ​
-It is intended for business stakeholders, data analysts, and strategy teams who want to quickly identify high‑performing products, locations, and channels and uncover opportunities to optimize pricing, assortment, and partnerships.
+   It is intended for business stakeholders, data analysts, and strategy teams who want to quickly identify high‑performing products,       locations, and channels and uncover opportunities to optimize pricing, assortment, and partnerships.
 ​
 
 3. Tech Stack
-Power BI Desktop – Primary platform for building the interactive report, cards, charts, and slicers.
+   Power BI Desktop – Primary platform for building the interactive report, cards, charts, and slicers.
 
 
-Power Query – Used for importing, cleaning, and shaping the Adidas US sales table (dates, regions, retailers, and numeric fields such as Total Sales and Operating Profit).
+   Power Query – Used for importing, cleaning, and shaping the Adidas US sales table (dates, regions, retailers, and numeric fields such     as Total Sales and Operating Profit).
 
 
-DAX (Data Analysis Expressions) – Measures for KPIs like Total Sales, Operating Profit, Units Sold, Average Price per Unit, and Operating Margin, plus dynamic filtering across visuals.
+   DAX (Data Analysis Expressions) – Measures for KPIs like Total Sales, Operating Profit, Units Sold, Average Price per Unit, and          Operating Margin, plus dynamic filtering across visuals.
 
 ​
-Data Modeling – Single fact table with attributes such as Retailer, Region, State, City, Product, Sales Method, and Invoice Date linked through date and categorical relationships to support cross‑filtering by time and geography.
+   Data Modeling – Single fact table with attributes such as Retailer, Region, State, City, Product, Sales Method, and Invoice Date          linked through date and categorical relationships to support cross‑filtering by time and geography.
 
 
-File Formats – .pbix for the Power BI report and .xlsx/.csv exports for the underlying sales data.
+   File Formats – .pbix for the Power BI report and .xlsx/.csv exports for the underlying sales data.
 ​
 
 4. Data Source
 
    
-Primary Source: Adidas US Sales Datasets on Kaggle – a transactional dataset containing retailer‑level sales across US regions, states, and cities between 2020 and 2021.
+   Primary Source: Adidas US Sales Datasets on Kaggle – a transactional dataset containing retailer‑level sales across US regions,          states, and cities between 2020 and 2021.
 
 ​
-Dataset Structure: Single table with columns such as Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per Unit, Units Sold, Total Sales, Operating Profit, Operating Margin, and Sales Method, enabling granular analysis of both revenue and profitability.
+   Dataset Structure: Single table with columns such as Retailer, Retailer ID, Invoice Date, Region, State, City, Product, Price per         Unit, Units Sold, Total Sales, Operating Profit, Operating Margin, and Sales Method, enabling granular analysis of both revenue and       profitability.
 
 ​
-Dataset Link: Adidas US Sales Datasets – Kaggle: https://www.kaggle.com/datasets/bcnishantreddy/adidas-us-sales-datasets[data]
+   Dataset Link: Adidas US Sales Datasets – Kaggle: https://www.kaggle.com/datasets/bcnishantreddy/adidas-us-sales-datasets[data]
 
 
 5. Features / Highlights
@@ -136,4 +138,6 @@ Comparing patterns across 2020 and 2021 helps evaluate recovery and refine forec
 
 
 6. Screenshots / Demos
+
+   
 https://github.com/ushaaaa33/Adidas-Dashboard/blob/main/Screenshot%20of%20the%20Dashboard.png
